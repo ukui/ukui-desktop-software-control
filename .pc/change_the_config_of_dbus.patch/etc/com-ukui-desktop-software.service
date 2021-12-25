@@ -1,0 +1,10 @@
+[Unit]
+Description=mdm service
+After=dbus.service
+
+[Service]
+Type=dbus
+BusName=com.kylin.mdm
+ExecStart=/usr/bin/safectl
+NotifyAccess=main
+

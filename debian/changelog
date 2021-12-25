@@ -1,0 +1,87 @@
+ukui-desktop-software-control (1.0.0-9+0909) v101; urgency=medium
+
+  * Fix(#56415):新下载学科网，设置禁用有效
+
+ -- duchangfeng <duchangfeng@kylinos.cn>  Thu, 9 Sep 2021 09:08:48 +0800
+
+ukui-desktop-software-control (1.0.0-9+0507) v101; urgency=medium
+
+  * Fix(#52899):腾讯应用设置禁用后立即关闭
+
+ -- jiaodian <jiaodian@kylinos.cn>  Fri, 26 Feb 2021 14:45:48 +0800
+
+ukui-desktop-software-control (1.0.0-9+0421) v101; urgency=medium
+
+  * Fix:增加接口返回被禁用的腾讯应用appid列表
+  * Fix:禁用的腾讯应用是发出对应appid的信号
+
+ -- jiaodian <jiaodian@kylinos.cn>  Fri, 26 Feb 2021 14:45:48 +0800
+
+ukui-desktop-software-control (1.0.0-9+0402) v101; urgency=medium
+
+  * Fix:修改禁用应用接口
+
+ -- jiaodian <jiaodian@kylinos.cn>  Fri, 26 Feb 2021 14:45:48 +0800
+
+ukui-desktop-software-control (1.0.0-9+0330) v101; urgency=medium
+
+  * Fix:修改禁用应用接口
+
+ -- wangguixi <wangguixi@kylinos.cn>  Fri, 26 Feb 2021 14:45:48 +0800
+
+ukui-desktop-software-control (1.0.0-9) v101; urgency=medium
+
+  * Fix:修改cleanwake()
+
+ -- wangguixi <wangguixi@kylinos.cn>  Fri, 26 Feb 2021 14:45:48 +0800
+
+ukui-desktop-software-control (1.0.0-7) v101; urgency=medium
+
+  * Fix:修改写入配置文件的exec字符串处理，保留参数
+
+ -- wangguixi <wangguixi@kylinos.cn>  Mon, 22 Feb 2021 16:20:08 +0800
+
+ukui-desktop-software-control (1.0.0-6+1204) v101; urgency=medium
+
+  * Add:为闹钟添加获得屏幕唤醒时间函数,以调用
+
+ -- fuyongyong <fuyongyong@kylinos.cn>  Fri, 04 Dec 2020 09:28:40 +0800
+
+ukui-desktop-software-control (1.0.0-6+1112) v101; urgency=medium
+
+  * Fix:Fixed the problem that the log has been printing out
+
+ -- fuyongyong <fuyongyong@kylinos.cn>  Thu, 12 Nov 2020 11:38:21 +0800
+
+ukui-desktop-software-control (1.0.0-6) v101; urgency=medium
+
+  * 统一参数接口为appid
+  * 去掉桌面desktop文件的属性
+
+ -- pangyi <pangyi@kylinos.cn>  Sun, 27 Sep 2020 16:10:58 +0800
+
+ukui-desktop-software-control (1.0.0-5) v101; urgency=medium
+
+  * 统一参数接口为appid
+  * 添加桌面desktop文件的属性
+
+ -- pangyi <pangyi@kylinos.cn>  Sun, 27 Sep 2020 16:10:58 +0800
+
+ukui-desktop-software-control (1.0.0-4) v101; urgency=medium
+
+  * 修改信号的参数为可执行文件名字和bool值
+
+ -- pangyi <pangyi@kylinos.cn>  Wed, 23 Sep 2020 09:25:04 +0800
+
+ukui-desktop-software-control (1.0.0-3) v101; urgency=medium
+
+  * 修改接口传入参数为desktop文件名，即
+  * 若需要禁用code.desktop，则传入参数code
+
+ -- pangyi <pangyi@kylinos.cn>  Tue, 22 Sep 2020 10:32:30 +0800
+
+ukui-desktop-software-control (1.0.0-2) v101; urgency=medium
+
+  * Initial release
+
+ -- pangyi <pangyi@kylinos.cn>  Fri, 14 Aug 2020 11:20:07 +0800

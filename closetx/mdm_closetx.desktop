@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/mdm_closetx
+Name=mdm close tencent
+Name[zh_CN]=关闭腾讯应用
+GenericName=mdm close tencent autostart
+X-KDE-StartupNotify=true
+Terminal=false
+Categories=Application
+

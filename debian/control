@@ -1,0 +1,22 @@
+Source: ukui-desktop-software-control
+Section: admin
+Priority: optional
+Maintainer: pangyi <pangyi@kylinos.cn>
+Build-Depends: debhelper-compat (= 12),
+			   qt5-qmake,
+               qtbase5-dev,
+               qtbase5-private-dev,
+               qtchooser,
+               qtbase5-dev-tools,
+			   libglib2.0-dev,
+			   libgsettings-qt-dev
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/ukui-desktop-software-control
+#Vcs-Git: https://salsa.debian.org/debian/ukui-desktop-software-control.git
+
+Package: ukui-desktop-software-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

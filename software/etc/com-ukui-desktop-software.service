@@ -1,0 +1,12 @@
+[Unit]
+Description=ukui desktop software control service
+After=dbus.service
+
+[Service]
+Type=dbus
+BusName=com.ukui.desktop.software
+ExecStart=/usr/sbin/ukui_desktop_software_control
+NotifyAccess=main
+
+[Install]
+WantedBy=multi-user.target
